@@ -1,4 +1,4 @@
-let element = document.getElementById("cookie");
+const element = document.getElementById("cookie");
 element.onclick = function () {
   let counter = document.getElementById("clicker__counter");
   counter.textContent++;
